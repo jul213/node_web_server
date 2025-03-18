@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Red Social</div>
+        <div class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="#">Notificaciones</a>
+            <a href="#">Mensajes</a>
+            <a href="#">Perfil</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="post-section">
+            <div class="create-post">
+                <textarea id="postInput" placeholder="¿Qué estás pensando?"></textarea>
+                <button onclick="createPost()">Publicar</button>
+            </div>
+            <div id="posts"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
